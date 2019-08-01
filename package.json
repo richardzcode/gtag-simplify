@@ -1,0 +1,27 @@
+{
+  "name": "gtag-simplify",
+  "version": "0.0.1",
+  "description": "Simple wrapper around Google global site tag (gtag.js)",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardzcode/gtag-simplify.git"
+  },
+  "keywords": [
+    "Google",
+    "Analytics"
+  ],
+  "author": "Richard Zhang <richardzcode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardzcode/gtag-simplify/issues"
+  },
+  "homepage": "https://github.com/richardzcode/gtag-simplify#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
